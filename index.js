@@ -263,7 +263,7 @@ client.on('message', message => {
         } else {
           assembleQueueMessage();
           if (Config.useEmbeds) {
-            queueMessage.edit(embedQueue.setTitle("totaluser=" + usersInQueue.length))
+            queueMessage.edit(embedQueue.setTitle("TotalUser=" + usersInQueue.length))
             queueMessage.edit(embedQueue.setDescription(queueMessageText));
           } else {
             queueMessage.edit(queueMessageText);
