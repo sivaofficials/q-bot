@@ -1,0 +1,37 @@
+{
+  "name": "queue-bot",
+  "version": "1.1.8",
+  "description": "A Discord bot that provides a basic user queue.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint ./index.js --fix",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binlabs/queue-bot.git"
+  },
+  "keywords": [
+    "discord",
+    "queue",
+    "bot"
+  ],
+  "author": "Kurt Maine <develohost@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/binlabs/queue-bot/issues"
+  },
+  "homepage": "https://github.com/binlabs/queue-bot#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "lodash": ">=4.17.19",
+    "queue-bot": "^1.1.8"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
