@@ -1,7 +1,3 @@
-<a href="https://github.com/binlabs/queue-bot/actions"><img src="https://github.com/binlabs/queue-bot/workflows/Node.js%20Package/badge.svg" alt="Build Status" /></a>
-<a href="https://www.npmjs.com/package/queue-bot"><img src="https://img.shields.io/npm/v/queue-bot.svg?maxAge=3600" alt="NPM version" /></a>
-<a href="https://www.npmjs.com/package/queue-bot"><img src="https://img.shields.io/npm/dt/queue-bot.svg?maxAge=3600" alt="NPM downloads" /></a>
-
 # Queue Bot
 A simple bot for managing a queue of users in Discord.
 
@@ -16,9 +12,13 @@ Once the bot is running, start a queue by issuing the `!queue start` command.
 ### Queue Commands
 | Command | Description |
 | --------------- | --------------- |
-| `!queue start` | Start a queue (Admins-only) |
-| `!queue add @username` | Add a user to the queue (Admins-only) |
-| `!queue remove @username` | Remove a user from the queue (Admins-only) |
-| `!queue join` | Join the queue |
-| `!queue leave` | Leave the queue |
-| `!queue time` | See how long you've been in the queue |
+| `!q start` | Start a queue (Admins-only) |
+| `!q add @username` | Add a user to the queue (Admins-only) |
+| `!q remove @username` | Remove a user from the queue (Admins-only) |
+| `!q join` | Join the queue |
+| `!q leave` | Leave the queue |
+| `!q time` | See how long you've been in the queue |
+
+
+
+Credits:binlabs
